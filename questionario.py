@@ -35,7 +35,6 @@ perguntas = [
 ]
 
 random.shuffle(perguntas)
-
 acertos = 0
 
 for i, q in enumerate(perguntas, 1):
