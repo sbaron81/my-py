@@ -53,4 +53,8 @@ for i, q in enumerate(perguntas, 1):
         if escolha in mapa:
             break
 
-    if mapa[escolha] == q['resposta']()
+    if mapa[escolha] == q['resposta']:
+        acertos += 1
+
+print("\n=== RESULTADO ===")
+print(f"Acertos: {acertos}")
